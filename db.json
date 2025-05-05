@@ -380,6 +380,366 @@
           "href": "http://localhost:3000/books/27"
         }
       ]
+    },
+    {
+      "title": "test",
+      "author": "test",
+      "isbn": "2255",
+      "releaseDate": "12-12-2025",
+      "createdAt": "2025-05-03T15:16:14.769Z",
+      "updatedAt": "2025-05-03T15:16:14.769Z",
+      "id": 28
+    },
+    {
+      "title": "neww",
+      "author": "rewr",
+      "isbn": "rewr",
+      "releaseDate": "12/12/2025",
+      "createdAt": "2025-05-03T15:16:44.044Z",
+      "updatedAt": "2025-05-03T15:16:44.044Z",
+      "id": 29
+    },
+    {
+      "title": "rtertet",
+      "author": "test",
+      "isbn": "34234",
+      "releaseDate": "2025-01-01",
+      "createdAt": "2025-05-03T15:18:35.051Z",
+      "updatedAt": "2025-05-03T15:18:35.051Z",
+      "id": 30
+    },
+    {
+      "title": "testtt",
+      "author": "test",
+      "isbn": "323424",
+      "releaseDate": "12-12-2026",
+      "createdAt": "2025-05-03T15:18:54.867Z",
+      "updatedAt": "2025-05-03T15:18:54.867Z",
+      "id": 31
+    },
+    {
+      "title": "tessst",
+      "author": "ertfyu",
+      "isbn": "56258",
+      "releaseDate": "30-03-2025",
+      "createdAt": "2025-05-05T11:57:13.709Z",
+      "updatedAt": "2025-05-05T11:57:13.709Z",
+      "id": 32
+    },
+    {
+      "title": "Book Title",
+      "author": "Author",
+      "isbn": "ISBN",
+      "releaseDate": "Release Date",
+      "createdAt": "2025-05-05T12:28:32.726Z",
+      "updatedAt": "2025-05-05T12:28:32.726Z",
+      "id": 33
+    },
+    {
+      "title": "Book Title",
+      "author": "Author",
+      "isbn": "ISBN",
+      "releaseDate": "Release Date",
+      "createdAt": "2025-05-05T13:16:24.609Z",
+      "updatedAt": "2025-05-05T13:16:24.614Z",
+      "id": 34
+    },
+    {
+      "title": "Book Title",
+      "author": "Author",
+      "isbn": "ISBN",
+      "releaseDate": "Release Date",
+      "createdAt": "2025-05-05T13:16:40.121Z",
+      "updatedAt": "2025-05-05T13:16:40.121Z",
+      "id": 35
+    },
+    {
+      "title": "Book Title",
+      "author": "Author",
+      "isbn": "ISBN",
+      "releaseDate": "Release Date",
+      "createdAt": "2025-05-05T13:18:14.509Z",
+      "updatedAt": "2025-05-05T13:18:14.509Z",
+      "id": 36
+    },
+    {
+      "title": "Book Title",
+      "author": "Author",
+      "isbn": "ISBN",
+      "releaseDate": "Release Date",
+      "createdAt": "2025-05-05T13:23:44.935Z",
+      "updatedAt": "2025-05-05T13:23:44.935Z",
+      "id": 37
+    },
+    {
+      "title": "Book Title",
+      "author": "Author",
+      "isbn": "ISBN",
+      "releaseDate": "Release Date",
+      "createdAt": "2025-05-05T13:25:49.068Z",
+      "updatedAt": "2025-05-05T13:25:49.068Z",
+      "id": 38
+    },
+    {
+      "title": "Book Title",
+      "author": "Author",
+      "isbn": "ISBN",
+      "releaseDate": "Release Date",
+      "createdAt": "2025-05-05T13:38:55.193Z",
+      "updatedAt": "2025-05-05T13:38:55.193Z",
+      "id": 39
+    },
+    {
+      "title": "Book Title",
+      "author": "Author",
+      "isbn": "ISBN",
+      "releaseDate": "Release Date",
+      "createdAt": "2025-05-05T13:43:09.110Z",
+      "updatedAt": "2025-05-05T13:43:09.110Z",
+      "id": 40
+    },
+    {
+      "title": "Book Title",
+      "author": "Author",
+      "isbn": "ISBN",
+      "releaseDate": "Release Date",
+      "createdAt": "2025-05-05T13:47:14.960Z",
+      "updatedAt": "2025-05-05T13:47:14.960Z",
+      "id": 41
+    },
+    {
+      "title": "Book Title",
+      "author": "Author",
+      "isbn": "ISBN",
+      "releaseDate": "Release Date",
+      "createdAt": "2025-05-05T13:47:35.216Z",
+      "updatedAt": "2025-05-05T13:47:35.216Z",
+      "id": 42
+    },
+    {
+      "title": "Book Title",
+      "author": "Author",
+      "isbn": "ISBN",
+      "releaseDate": "Release Date",
+      "createdAt": "2025-05-05T13:48:25.694Z",
+      "updatedAt": "2025-05-05T13:48:25.694Z",
+      "id": 43
+    },
+    {
+      "title": "Book Title",
+      "author": "Author",
+      "isbn": "ISBN",
+      "releaseDate": "Release Date",
+      "createdAt": "2025-05-05T13:48:27.924Z",
+      "updatedAt": "2025-05-05T13:48:27.924Z",
+      "id": 44
+    },
+    {
+      "title": "Book Title",
+      "author": "Author",
+      "isbn": "ISBN",
+      "releaseDate": "Release Date",
+      "createdAt": "2025-05-05T13:49:15.373Z",
+      "updatedAt": "2025-05-05T13:49:15.373Z",
+      "id": 45
+    },
+    {
+      "title": "Book Title",
+      "author": "Author",
+      "isbn": "ISBN",
+      "releaseDate": "Release Date",
+      "createdAt": "2025-05-05T13:53:31.118Z",
+      "updatedAt": "2025-05-05T13:53:31.118Z",
+      "id": 46
+    },
+    {
+      "title": "Book Title",
+      "author": "Author",
+      "isbn": "ISBN",
+      "releaseDate": "Release Date",
+      "createdAt": "2025-05-05T13:53:37.184Z",
+      "updatedAt": "2025-05-05T13:53:37.184Z",
+      "id": 47
+    },
+    {
+      "title": "Book Title",
+      "author": "Author",
+      "isbn": "ISBN",
+      "releaseDate": "Release Date",
+      "createdAt": "2025-05-05T13:55:49.208Z",
+      "updatedAt": "2025-05-05T13:55:49.208Z",
+      "id": 48
+    },
+    {
+      "title": "Book Title",
+      "author": "Author",
+      "isbn": "ISBN",
+      "releaseDate": "Release Date",
+      "createdAt": "2025-05-05T13:55:59.562Z",
+      "updatedAt": "2025-05-05T13:55:59.562Z",
+      "id": 49
+    },
+    {
+      "title": "{{randomBookName}}",
+      "author": "Author",
+      "isbn": "ISBN",
+      "releaseDate": "Release Date",
+      "createdAt": "2025-05-05T13:59:29.057Z",
+      "updatedAt": "2025-05-05T13:59:29.057Z",
+      "id": 50
+    },
+    {
+      "title": "Lonely Dream of Romance",
+      "author": "Author",
+      "isbn": "ISBN",
+      "releaseDate": "Release Date",
+      "createdAt": "2025-05-05T14:00:51.963Z",
+      "updatedAt": "2025-05-05T14:00:51.963Z",
+      "id": 51
+    },
+    {
+      "title": "Wandering Revenge",
+      "author": "{{Author}}",
+      "isbn": "ISBN",
+      "releaseDate": "Release Date",
+      "createdAt": "2025-05-05T14:02:09.275Z",
+      "updatedAt": "2025-05-05T14:02:09.275Z",
+      "id": 52
+    },
+    {
+      "title": "Hidden Legacy",
+      "author": "Rebecca Wilson",
+      "isbn": "9781557730275",
+      "releaseDate": "Release Date",
+      "createdAt": "2025-05-05T14:04:47.323Z",
+      "updatedAt": "2025-05-05T14:04:47.323Z",
+      "id": 53
+    },
+    {
+      "title": "Hidden Courage",
+      "author": "Emily Taylor",
+      "isbn": "9783624317259",
+      "releaseDate": "2016-07-11T04:53:32.862Z",
+      "createdAt": "2025-05-05T14:07:45.896Z",
+      "updatedAt": "2025-05-05T14:07:45.896Z",
+      "id": 54
+    },
+    {
+      "title": "Mystic Courage",
+      "author": "Emily Brown",
+      "isbn": "9789497564523",
+      "releaseDate": "2016-05-27T10:16:28.414Z",
+      "createdAt": "2025-05-05T14:08:43.945Z",
+      "updatedAt": "2025-05-05T14:08:43.945Z",
+      "id": 55
+    },
+    {
+      "title": "Lonely Heart",
+      "author": "Laura Smith",
+      "isbn": "9788058242481",
+      "releaseDate": "2000-04-21T19:46:15.934Z",
+      "createdAt": "2025-05-05T14:11:41.279Z",
+      "updatedAt": "2025-05-05T14:11:41.279Z",
+      "id": 56
+    },
+    {
+      "title": "Eternal Heart",
+      "author": "John Johnson",
+      "isbn": "9783256782524",
+      "releaseDate": "2017-09-08T02:38:05.274Z",
+      "createdAt": "2025-05-05T14:13:38.176Z",
+      "updatedAt": "2025-05-05T14:13:38.176Z",
+      "id": 57
+    },
+    {
+      "title": "Lonely Whisper",
+      "author": "David Taylor",
+      "isbn": "9783657917754",
+      "releaseDate": "2022-06-01T05:32:09.890Z",
+      "createdAt": "2025-05-05T14:20:39.924Z",
+      "updatedAt": "2025-05-05T14:20:39.924Z",
+      "id": 58
+    },
+    {
+      "title": "Endless Heart",
+      "author": "Laura Thomas",
+      "isbn": "9786370754569",
+      "releaseDate": "2015-07-21T05:17:01.614Z",
+      "createdAt": "2025-05-05T14:22:59.775Z",
+      "updatedAt": "2025-05-05T14:22:59.775Z",
+      "id": 59
+    },
+    {
+      "title": "Hidden Courage",
+      "author": "James Smith",
+      "isbn": "9783958474055",
+      "releaseDate": "2023-09-20T22:34:29.129Z",
+      "createdAt": "2025-05-05T14:23:13.092Z",
+      "updatedAt": "2025-05-05T14:23:13.092Z",
+      "id": 60
+    },
+    {
+      "title": "Fateful Kingdom",
+      "author": "Michael Johnson",
+      "isbn": "9788585546762",
+      "releaseDate": "2017-04-23T21:10:04.072Z",
+      "createdAt": "2025-05-05T14:24:19.706Z",
+      "updatedAt": "2025-05-05T14:24:19.706Z",
+      "id": 61
+    },
+    {
+      "title": "Lonely Legacy",
+      "author": "John Moore",
+      "isbn": "9787704060363",
+      "releaseDate": "2005-11-27T14:53:02.461Z",
+      "createdAt": "2025-05-05T14:26:56.321Z",
+      "updatedAt": "2025-05-05T14:26:56.321Z",
+      "id": 62
+    },
+    {
+      "title": "Lonely World",
+      "author": "Olivia Brown",
+      "isbn": "9783593201702",
+      "releaseDate": "2018-01-25T19:32:34.642Z",
+      "createdAt": "2025-05-05T14:27:16.149Z",
+      "updatedAt": "2025-05-05T14:27:16.149Z",
+      "id": 63
+    },
+    {
+      "title": "Hidden World",
+      "author": "William Taylor",
+      "isbn": "9786061716760",
+      "releaseDate": "2006-09-15T10:41:13.140Z",
+      "createdAt": "2025-05-05T15:40:32.990Z",
+      "updatedAt": "2025-05-05T15:40:32.990Z",
+      "id": 64
+    },
+    {
+      "title": "Hidden Revenge",
+      "author": "David Miller",
+      "isbn": "9789169032190",
+      "releaseDate": "2001-11-27T04:09:35.433Z",
+      "createdAt": "2025-05-05T15:41:11.462Z",
+      "updatedAt": "2025-05-05T15:41:11.462Z",
+      "id": 65
+    },
+    {
+      "title": "Eternal Journey",
+      "author": "William Miller",
+      "isbn": "9785429430621",
+      "releaseDate": "2015-05-22T22:12:06.032Z",
+      "createdAt": "2025-05-05T18:10:06.245Z",
+      "updatedAt": "2025-05-05T18:10:06.245Z",
+      "id": 66
+    },
+    {
+      "title": "Mystic Legacy",
+      "author": "John Wilson",
+      "isbn": "9784981976233",
+      "releaseDate": "2009-10-05T00:20:57.003Z",
+      "createdAt": "2025-05-05T18:11:25.288Z",
+      "updatedAt": "2025-05-05T18:11:25.288Z",
+      "id": 67
     }
   ],
   "households": [
@@ -592,6 +952,60 @@
       "createdAt": "2021-07-10T23:52:56.361Z",
       "updatedAt": "2021-07-10T23:52:56.361Z",
       "id": 18
+    },
+    {
+      "name": "Household Name",
+      "createdAt": "2025-05-05T15:44:26.021Z",
+      "updatedAt": "2025-05-05T15:44:26.021Z",
+      "id": 19
+    },
+    {
+      "name": "HappyResidence1066",
+      "createdAt": "2025-05-05T15:46:44.179Z",
+      "updatedAt": "2025-05-05T15:46:44.179Z",
+      "id": 20
+    },
+    {
+      "name": "QuietNest2967",
+      "createdAt": "2025-05-05T16:56:41.934Z",
+      "updatedAt": "2025-05-05T16:56:41.935Z",
+      "id": 21
+    },
+    {
+      "name": "SunnyHousehold8205",
+      "createdAt": "2025-05-05T16:59:57.713Z",
+      "updatedAt": "2025-05-05T16:59:57.713Z",
+      "id": 22
+    },
+    {
+      "name": "CozyHome9019",
+      "createdAt": "2025-05-05T17:01:54.009Z",
+      "updatedAt": "2025-05-05T17:01:54.009Z",
+      "id": 23
+    },
+    {
+      "name": "HappyResidence6923",
+      "createdAt": "2025-05-05T17:03:20.952Z",
+      "updatedAt": "2025-05-05T17:03:20.952Z",
+      "id": 24
+    },
+    {
+      "name": "CozyPlace5371",
+      "createdAt": "2025-05-05T17:06:41.184Z",
+      "updatedAt": "2025-05-05T17:06:41.184Z",
+      "id": 25
+    },
+    {
+      "name": "LovelyNest8058",
+      "createdAt": "2025-05-05T17:22:43.787Z",
+      "updatedAt": "2025-05-05T17:22:43.787Z",
+      "id": 26
+    },
+    {
+      "name": "CozyResidence1287",
+      "createdAt": "2025-05-05T17:26:17.689Z",
+      "updatedAt": "2025-05-05T17:26:17.689Z",
+      "id": 27
     }
   ],
   "users": [
@@ -1166,6 +1580,70 @@
           "href": "http://localhost:3000/users/36"
         }
       ]
+    },
+    {
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "johndoe@example.com",
+      "createdAt": "2025-05-05T18:17:22.375Z",
+      "updatedAt": "2025-05-05T18:17:22.375Z",
+      "id": 37
+    },
+    {
+      "firstName": "Christop",
+      "lastName": "Murray",
+      "email": "Jazlyn.Kunze78@hotmail.com",
+      "createdAt": "2025-05-05T18:17:55.715Z",
+      "updatedAt": "2025-05-05T18:17:55.715Z",
+      "id": 38
+    },
+    {
+      "firstName": "Anika",
+      "lastName": "Wiegand",
+      "email": "Ford69@hotmail.com",
+      "createdAt": "2025-05-05T18:19:01.240Z",
+      "updatedAt": "2025-05-05T18:19:01.240Z",
+      "id": 39
+    },
+    {
+      "firstName": "Cheyenne",
+      "lastName": "Kirlin",
+      "email": "Deanna.Nikolaus@hotmail.com",
+      "createdAt": "2025-05-05T18:25:10.244Z",
+      "updatedAt": "2025-05-05T18:25:10.244Z",
+      "id": 40
+    },
+    {
+      "firstName": "Lynn",
+      "lastName": "Bode",
+      "email": "Bart_Weber2@hotmail.com",
+      "createdAt": "2025-05-05T18:27:11.878Z",
+      "updatedAt": "2025-05-05T18:27:11.878Z",
+      "id": 41
+    },
+    {
+      "firstName": "Aimee",
+      "lastName": "Moen",
+      "email": "Candido_Harber66@gmail.com",
+      "createdAt": "2025-05-05T18:33:41.747Z",
+      "updatedAt": "2025-05-05T18:33:41.747Z",
+      "id": 42
+    },
+    {
+      "firstName": "Percival",
+      "lastName": "Bayer",
+      "email": "Rachelle33@gmail.com",
+      "createdAt": "2025-05-05T19:06:21.229Z",
+      "updatedAt": "2025-05-05T19:06:28.809Z",
+      "id": 43
+    },
+    {
+      "firstName": "Paxton",
+      "lastName": "Jenkins",
+      "email": "Serenity98@yahoo.com",
+      "createdAt": "2025-05-05T20:01:52.921Z",
+      "updatedAt": "2025-05-05T20:01:59.665Z",
+      "id": 44
     }
   ],
   "accounts": [
@@ -1394,6 +1872,83 @@
       "name": "Nate's List",
       "books": [],
       "id": 36
+    },
+    {
+      "name": "Wishlist Name",
+      "books": [],
+      "createdAt": "2025-05-05T19:09:33.886Z",
+      "updatedAt": "2025-05-05T19:09:33.886Z",
+      "id": 37
+    },
+    {
+      "name": "{{randomWishListName}}",
+      "books": [],
+      "createdAt": "2025-05-05T19:15:21.647Z",
+      "updatedAt": "2025-05-05T19:15:21.647Z",
+      "id": 38
+    },
+    {
+      "name": "LovelyCrate497",
+      "books": [],
+      "createdAt": "2025-05-05T19:16:10.099Z",
+      "updatedAt": "2025-05-05T19:16:10.099Z",
+      "id": 39
+    },
+    {
+      "name": "GoldenCatalog2160",
+      "books": "The Lost World,The Lost World,Invisible Light,Beyond the Horizon,The Lost World",
+      "createdAt": "2025-05-05T19:16:27.320Z",
+      "updatedAt": "2025-05-05T19:16:27.320Z",
+      "id": 40
+    },
+    {
+      "name": "GoldenBox1198",
+      "books": "[The Forgotten City,Sky of Ashes,Invisible Light,Invisible Light,The Forgotten City]",
+      "createdAt": "2025-05-05T19:16:40.689Z",
+      "updatedAt": "2025-05-05T19:16:40.689Z",
+      "id": 41
+    },
+    {
+      "name": "DreamyCatalog7185",
+      "books": "[Sky of Ashes,Whispers in the Dark,The Forgotten City,Invisible Light,Sky of Ashes]",
+      "createdAt": "2025-05-05T19:16:56.545Z",
+      "updatedAt": "2025-05-05T19:16:56.545Z",
+      "id": 42
+    },
+    {
+      "name": "DreamyBasket5774",
+      "books": "[Paths Untaken,Chasing Dreams,Invisible Light,Invisible Light,Invisible Light]",
+      "createdAt": "2025-05-05T19:24:22.402Z",
+      "updatedAt": "2025-05-05T19:24:22.403Z",
+      "id": 43
+    },
+    {
+      "name": "WanderlustBox1563",
+      "books": "[Chasing Dreams,Whispers in the Dark,Time Travelers,Paths Untaken,Whispers in the Dark]",
+      "createdAt": "2025-05-05T19:25:30.281Z",
+      "updatedAt": "2025-05-05T19:25:30.281Z",
+      "id": 44
+    },
+    {
+      "name": "CozyBundle138",
+      "books": "[Sky of Ashes,Beyond the Horizon,Sky of Ashes,Whispers in the Dark,The Forgotten City]",
+      "createdAt": "2025-05-05T19:41:21.138Z",
+      "updatedAt": "2025-05-05T19:41:21.138Z",
+      "id": 45
+    },
+    {
+      "name": "WanderlustList3601",
+      "books": "[Echoes of Silence,Chasing Dreams,Invisible Light,The Forgotten City,Whispers in the Dark]",
+      "createdAt": "2025-05-05T19:45:47.608Z",
+      "updatedAt": "2025-05-05T19:45:47.608Z",
+      "id": 46
+    },
+    {
+      "name": "AwesomeBox6278",
+      "books": "[Echoes of Silence,Sky of Ashes,The Forgotten City,Chasing Dreams,Echoes of Silence]",
+      "createdAt": "2025-05-05T19:45:51.241Z",
+      "updatedAt": "2025-05-05T19:54:41.536Z",
+      "id": 47
     }
   ]
 }
