@@ -201,10 +201,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Added **Special Routes** for **POST `/users`** (creating a wishlist) and **POST `/wishlists/:wishlistId/books/:bookId`** (adding books to wishlists).
 - Authentication notes have been added for protected routes.
 
-Feel free to modify and extend the documentation further based on your project's needs. Let me know if you'd like further assistance!
-
-## Contribution to shadyahmed9719@gmail.com
-
 
 ## After Cloning
 After cloning the repo, make sure to run `npm install` in the root of the project directory.
