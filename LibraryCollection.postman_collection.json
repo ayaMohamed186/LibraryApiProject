@@ -389,43 +389,43 @@
 									"    pm.expect(responseBody.updatedAt).to.eql(pm.collectionVariables.get(\"updatedAt\") );\r",
 									"});\r",
 									"\r",
-									"pm.test(\"[1.1] TC10 validate that title is not null, undefined or empty in get book request \", function () {\r",
+									"pm.test(\"[1.2] TC10 validate that title is not null, undefined or empty in get book request \", function () {\r",
 									"    pm.expect(responseBody.title).to.not.be.null;\r",
 									"    pm.expect(responseBody.title).to.not.be.undefined;\r",
 									"    pm.expect(responseBody.title).to.not.be.empty;\r",
 									"});\r",
 									"\r",
-									"pm.test(\"[1.1] TC11 validate that author is not null, undefined or empty in get book request\", function () {\r",
+									"pm.test(\"[1.2] TC11 validate that author is not null, undefined or empty in get book request\", function () {\r",
 									"    pm.expect(responseBody.author).to.not.be.null;\r",
 									"    pm.expect(responseBody.author).to.not.be.undefined;\r",
 									"    pm.expect(responseBody.author).to.not.be.empty;\r",
 									"});\r",
 									"\r",
-									"pm.test(\"[1.1] TC12 validate that isbn is not null, undefined or empty in get book request\", function () {\r",
+									"pm.test(\"[1.2] TC12 validate that isbn is not null, undefined or empty in get book request\", function () {\r",
 									"    pm.expect(responseBody.isbn).to.not.be.null;\r",
 									"    pm.expect(responseBody.isbn).to.not.be.undefined;\r",
 									"    pm.expect(responseBody.isbn).to.not.be.empty;\r",
 									"});\r",
 									"\r",
-									"pm.test(\"[1.1] TC13 validate that release date is not null, undefined or empty in get book request\", function () {\r",
+									"pm.test(\"[1.2] TC13 validate that release date is not null, undefined or empty in get book request\", function () {\r",
 									"    pm.expect(responseBody.releaseDate).to.not.be.null;\r",
 									"    pm.expect(responseBody.releaseDate).to.not.be.undefined;\r",
 									"    pm.expect(responseBody.releaseDate).to.not.be.empty;\r",
 									"});\r",
 									"\r",
-									"pm.test(\"[1.1] TC14 validate that created at is not null, undefined or empty in get book request\", function () {\r",
+									"pm.test(\"[1.2] TC14 validate that created at is not null, undefined or empty in get book request\", function () {\r",
 									"    pm.expect(responseBody.createdAt).to.not.be.null;\r",
 									"    pm.expect(responseBody.createdAt).to.not.be.undefined;\r",
 									"    pm.expect(responseBody.createdAt).to.not.be.empty;\r",
 									"});\r",
 									"\r",
-									"pm.test(\"[1.1] TC15 validate that updated at is not null, undefined or empty in get book request\", function () {\r",
+									"pm.test(\"[1.2] TC15 validate that updated at is not null, undefined or empty in get book request\", function () {\r",
 									"    pm.expect(responseBody.updatedAt).to.not.be.null;\r",
 									"    pm.expect(responseBody.updatedAt).to.not.be.undefined;\r",
 									"    pm.expect(responseBody.updatedAt).to.not.be.empty;\r",
 									"});\r",
 									"\r",
-									"pm.test(\"[1.1] TC16 validate that id is not null, undefined or empty in get book request\", function () {\r",
+									"pm.test(\"[1.2] TC16 validate that id is not null, undefined or empty in get book request\", function () {\r",
 									"    pm.expect(responseBody.id).to.not.be.null;\r",
 									"    pm.expect(responseBody.id).to.not.be.undefined;\r",
 									"});\r",
@@ -585,27 +585,27 @@
 									"        pm.expect(item).to.not.be.undefined;\r",
 									"    });\r",
 									"\r",
-									"    pm.test(`[1.4] TC06 validate that Item ${index} in response has title as string`, function () {\r",
+									"    pm.test(`[1.3] TC06 validate that Item ${index} in response has title as string`, function () {\r",
 									"        pm.expect(item).to.have.property(\"title\").that.is.a(\"string\");\r",
 									"    });\r",
 									"\r",
-									"    pm.test(`[1.4] TC07 validate that Item ${index} in response has author as string`, function () {\r",
+									"    pm.test(`[1.3] TC07 validate that Item ${index} in response has author as string`, function () {\r",
 									"        pm.expect(item).to.have.property(\"author\").that.is.a(\"string\");\r",
 									"    });\r",
 									"\r",
-									"    pm.test(`[1.4] TC08 validate that Item ${index} in response has publicationDate as string `, function () {\r",
+									"    pm.test(`[1.3] TC08 validate that Item ${index} in response has publicationDate as string `, function () {\r",
 									"        pm.expect(item).to.have.property(\"publicationDate\").that.is.a(\"string\");\r",
 									"    });\r",
 									"\r",
-									"    pm.test(`[1.4] TC09 validate that Item ${index} in response has isbn as string `, function () {\r",
+									"    pm.test(`[1.3] TC09 validate that Item ${index} in response has isbn as string `, function () {\r",
 									"        pm.expect(item).to.have.property(\"publicationDate\").that.is.a(\"string\");\r",
 									"    });\r",
 									"\r",
-									"    pm.test(`[1.4] TC10 validate that Item ${index} in response has createdAt as string `, function () {\r",
+									"    pm.test(`[1.3] TC10 validate that Item ${index} in response has createdAt as string `, function () {\r",
 									"        pm.expect(item).to.have.property(\"createdAt\").that.is.a(\"string\");\r",
 									"    });\r",
 									"\r",
-									"       pm.test(`[1.4] TC11 validate that Item ${index} in response has updatedAt as string `, function () {\r",
+									"       pm.test(`[1.3] TC11 validate that Item ${index} in response has updatedAt as string `, function () {\r",
 									"        pm.expect(item).to.have.property(\"updatedAt\").that.is.a(\"string\");\r",
 									"    });\r",
 									"});\r",
@@ -1305,7 +1305,217 @@
 					]
 				},
 				{
-					"name": "1.6 deleteBook",
+					"name": "1.6 partialUpdate",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"function generateRandomISBN() {\r",
+									"  const prefix = \"978\"; // ISBN-13 prefix\r",
+									"  let isbn = prefix;\r",
+									"\r",
+									"  // Generate the next 9 digits randomly\r",
+									"  for (let i = 0; i < 9; i++) {\r",
+									"    isbn += Math.floor(Math.random() * 10); // Random digit between 0 and 9\r",
+									"  }\r",
+									"  let sum = 0;\r",
+									"  for (let i = 0; i < 12; i++) {\r",
+									"    const digit = parseInt(isbn[i]);\r",
+									"    sum += (i % 2 === 0) ? digit : digit * 3; // Alternate between multiplying by 1 and 3\r",
+									"  }\r",
+									"  const checkDigit = (10 - (sum % 10)) % 10; // ISBN-13 check digit formula\r",
+									"  isbn += checkDigit;\r",
+									"  return isbn;\r",
+									"}\r",
+									"\r",
+									"var updatedRandomIBSN = generateRandomISBN();\r",
+									"pm.collectionVariables.set(\"updatedRandomIBSN\",updatedRandomIBSN);\r",
+									"\r",
+									"//////////////////////////\r",
+									"\r",
+									"function generateRandomDate() {\r",
+									"  // Set the start and end date range\r",
+									"  const startDate = new Date('2000-01-01T00:00:00.000Z');\r",
+									"  const endDate = new Date('2024-01-01T00:00:00.000Z');\r",
+									"\r",
+									"  // Generate a random timestamp between the start and end date\r",
+									"  const randomTimestamp = startDate.getTime() + Math.random() * (endDate.getTime() - startDate.getTime());\r",
+									"\r",
+									"  // Create a new Date object using the random timestamp\r",
+									"  const randomDate = new Date(randomTimestamp);\r",
+									"\r",
+									"  // Format the date to match the desired format (YYYY-MM-DDTHH:mm:ss.sssZ)\r",
+									"  return randomDate.toISOString();\r",
+									"}\r",
+									"var updatedRandomReleaseDate = generateRandomDate();\r",
+									"pm.collectionVariables.set(\"updatedRandomReleaseDate\",updatedRandomReleaseDate);\r",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"[1.6] TC01 validate that Status code for parial update book request is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "admin",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "admin",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "g-token",
+								"value": "ROM831ESV",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"title\": \"Updated Title\", \r\n   \"author\": \"Updated Author\",\r\n    \"isbn\": \"{{updatedRandomIBSN}}\",\r\n    \"releaseDate\": \"{{updatedRandomReleaseDate}}\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/books/{{bookIdCreated}}",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"books",
+								"{{bookIdCreated}}"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "1.6 partialUpdate",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "g-token",
+										"value": "ROM831ESV",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n   \"title\": \"Updated Title\", \r\n   \"author\": \"Updated Author\",\r\n    \"isbn\": \"{{updatedRandomIBSN}}\",\r\n    \"releaseDate\": \"{{updatedRandomReleaseDate}}\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseURL}}/books/{{bookIdCreated}}",
+									"host": [
+										"{{baseURL}}"
+									],
+									"path": [
+										"books",
+										"{{bookIdCreated}}"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin, Accept-Encoding"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache"
+								},
+								{
+									"key": "Pragma",
+									"value": "no-cache"
+								},
+								{
+									"key": "Expires",
+									"value": "-1"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "230"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"e6-VoJR8AFkCgS060kGZcbD7b2OMJI\""
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 07 May 2025 15:39:57 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"title\": \"Updated Title\",\n    \"author\": \"Updated Author\",\n    \"isbn\": \"9786943427876\",\n    \"releaseDate\": \"2020-01-27T23:24:39.009Z\",\n    \"createdAt\": \"2025-05-07T15:39:53.259Z\",\n    \"updatedAt\": \"2025-05-07T15:39:57.171Z\",\n    \"id\": 68\n}"
+						}
+					]
+				},
+				{
+					"name": "1.7 deleteBook",
 					"event": [
 						{
 							"listen": "prerequest",
@@ -1321,7 +1531,7 @@
 							"listen": "test",
 							"script": {
 								"exec": [
-									"pm.test(\"[1.6] TC01 validate that Status code is 204 for delete book request\", function () {\r",
+									"pm.test(\"[1.7] TC01 validate that Status code is 204 for delete book request\", function () {\r",
 									"    pm.response.to.have.status(204);\r",
 									"});"
 								],
@@ -1373,7 +1583,7 @@
 					},
 					"response": [
 						{
-							"name": "1.6 deleteBook",
+							"name": "1.7 deleteBook",
 							"originalRequest": {
 								"method": "DELETE",
 								"header": [
@@ -1452,7 +1662,7 @@
 							"listen": "test",
 							"script": {
 								"exec": [
-									"pm.test(\"[1.7] TC01 validate that Status code is 404 for get book details after delete\", function () {\r",
+									"pm.test(\"[1.8] TC01 validate that Status code is 404 for get book details after delete\", function () {\r",
 									"    pm.response.to.have.status(404);\r",
 									"});"
 								],
@@ -1875,32 +2085,32 @@
 									"});\r",
 									"\r",
 									"\r",
-									"pm.test(\"[2.3] TC03 validate that houseHold id in response matches the same in creating request \", function () {\r",
+									"pm.test(\"[2.2] TC03 validate that houseHold id in response matches the same in creating request \", function () {\r",
 									"    pm.expect(responseBody.id).to.eql(pm.collectionVariables.get(\"houseHoldIdCreated\") );\r",
 									"});\r",
 									"\r",
-									"pm.test(\"[2.4] TC04 validate that houseHold name in response matches the same in creating request \", function () {\r",
+									"pm.test(\"[2.2] TC04 validate that houseHold name in response matches the same in creating request \", function () {\r",
 									"    pm.expect(responseBody.name).to.eql(pm.collectionVariables.get(\"houseHoldCreatedName\") );\r",
 									"});\r",
 									"\r",
-									"pm.test(\"[2.5] TC05 validate that household name is not null, undefined or empty in get household request \", function () {\r",
+									"pm.test(\"[2.2] TC05 validate that household name is not null, undefined or empty in get household request \", function () {\r",
 									"    pm.expect(responseBody.name).to.not.be.null;\r",
 									"    pm.expect(responseBody.name).to.not.be.undefined;\r",
 									"    pm.expect(responseBody.name).to.not.be.empty;\r",
 									"});\r",
 									"\r",
-									"pm.test(\"[2.6] TC06 validate that household id is not null, undefined or empty in get household request\", function () {\r",
+									"pm.test(\"[2.2] TC06 validate that household id is not null, undefined or empty in get household request\", function () {\r",
 									"    pm.expect(responseBody.id).to.not.be.null;\r",
 									"    pm.expect(responseBody.id).to.not.be.undefined;\r",
 									"});\r",
 									"\r",
-									"pm.test(\"[2.7] TC07 validate that household createdAt is not null, undefined or empty in get household request\", function () {\r",
+									"pm.test(\"[2.2] TC07 validate that household createdAt is not null, undefined or empty in get household request\", function () {\r",
 									"    pm.expect(responseBody.createdAt).to.not.be.null;\r",
 									"    pm.expect(responseBody.createdAt).to.not.be.undefined;\r",
 									"    pm.expect(responseBody.createdAt).to.not.be.empty;\r",
 									"});\r",
 									"\r",
-									"pm.test(\"[2.8] TC08 validate that houseHold updateAt is not null, undefined or empty in get household request\", function () {\r",
+									"pm.test(\"[2.2] TC08 validate that houseHold updateAt is not null, undefined or empty in get household request\", function () {\r",
 									"    pm.expect(responseBody.updatedAt).to.not.be.null;\r",
 									"    pm.expect(responseBody.updatedAt).to.not.be.undefined;\r",
 									"    pm.expect(responseBody.updatedAt).to.not.be.empty;\r",
@@ -2656,13 +2866,201 @@
 					]
 				},
 				{
-					"name": "2.6 deleteHouseHold",
+					"name": "2.6 partialUpdate",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"function generateRandomHouseholdName() {\r",
+									"    const adjectives = [\"Happy\", \"Sunny\", \"Cozy\", \"Quiet\", \"Lovely\"];\r",
+									"    const nouns = [\"Nest\", \"Home\", \"Household\", \"Place\", \"Residence\"];\r",
+									"    const randomAdjective = adjectives[Math.floor(Math.random() * adjectives.length)];\r",
+									"    const randomNoun = nouns[Math.floor(Math.random() * nouns.length)];\r",
+									"    const randomNumber = Math.floor(1000 + Math.random() * 9000);\r",
+									"\r",
+									"    return `${randomAdjective}${randomNoun}${randomNumber}`;\r",
+									"}\r",
+									"\r",
+									"var updatedRandomHouseHoldName = generateRandomHouseholdName();\r",
+									"pm.collectionVariables.set(\"updatedRandomHouseHoldName\",updatedRandomHouseHoldName);"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"[2.6] TC01 validate that Status code for partial update HouseHolds request is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "admin",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "admin",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "g-token",
+								"value": "ROM831ESV",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"{{updatedRandomHouseHoldName}}\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}//households/{{houseHoldIdCreated}}",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"",
+								"households",
+								"{{houseHoldIdCreated}}"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "2.6 partialUpdate",
+							"originalRequest": {
+								"method": "PATCH",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "g-token",
+										"value": "ROM831ESV",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\": \"{{updatedRandomHouseHoldName}}\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseURL}}//households/{{houseHoldIdCreated}}",
+									"host": [
+										"{{baseURL}}"
+									],
+									"path": [
+										"",
+										"households",
+										"{{houseHoldIdCreated}}"
+									]
+								}
+							},
+							"status": "Not Found",
+							"code": 404,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin, Accept-Encoding"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache"
+								},
+								{
+									"key": "Pragma",
+									"value": "no-cache"
+								},
+								{
+									"key": "Expires",
+									"value": "-1"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "2"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"2-vyGp6PvFo4RvsFtPoIWeCReyIC8\""
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 07 May 2025 15:48:27 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{}"
+						}
+					]
+				},
+				{
+					"name": "2.7 deleteHouseHold",
 					"event": [
 						{
 							"listen": "test",
 							"script": {
 								"exec": [
-									"pm.test(\"[2.6] TC01 validate that Status code is 204 for delete household request\", function () {\r",
+									"pm.test(\"[2.7] TC01 validate that Status code is 204 for delete household request\", function () {\r",
 									"    pm.response.to.have.status(204);\r",
 									"});"
 								],
@@ -2699,7 +3097,7 @@
 					},
 					"response": [
 						{
-							"name": "2.5 deleteHouseHold",
+							"name": "2.7 deleteHouseHold",
 							"originalRequest": {
 								"method": "DELETE",
 								"header": [
@@ -2772,13 +3170,13 @@
 					]
 				},
 				{
-					"name": "2.7 getHouseHoldAfterDelete",
+					"name": "2.8 getHouseHoldAfterDelete",
 					"event": [
 						{
 							"listen": "test",
 							"script": {
 								"exec": [
-									"pm.test(\"2.7] TC01 validate that Status code is 404 for get household details after delete\", function () {\r",
+									"pm.test(\"2.8] TC01 validate that Status code is 404 for get household details after delete\", function () {\r",
 									"    pm.response.to.have.status(404);\r",
 									"});"
 								],
@@ -2815,7 +3213,7 @@
 					},
 					"response": [
 						{
-							"name": "2.2 getHouseHoldAfterUpdate",
+							"name": "2.8 getHouseHoldAfterUpdate",
 							"originalRequest": {
 								"method": "GET",
 								"header": [
@@ -3154,55 +3552,55 @@
 								"exec": [
 									"var responseBody = pm.response.json();\r",
 									"\r",
-									"pm.test(\"[3.1] TC01 validate that Status code for get user details request is 200\", function () {\r",
+									"pm.test(\"[3.2] TC01 validate that Status code for get user details request is 200\", function () {\r",
 									"    pm.response.to.have.status(200);\r",
 									"});\r",
 									"\r",
-									"pm.test(\"[3.1] TC02 validate that response time for get user details request less than 1000ms\" , function(){\r",
+									"pm.test(\"[3.2] TC02 validate that response time for get user details request less than 1000ms\" , function(){\r",
 									"        pm.expect(pm.response.responseTime).to.be.below(1000);\r",
 									"});\r",
 									"\r",
 									"\r",
-									"pm.test(\"[3.1] TC03 validate that user firstname in response matches the same in creating request \", function () {\r",
+									"pm.test(\"[3.2] TC03 validate that user firstname in response matches the same in creating request \", function () {\r",
 									"    pm.expect(responseBody.firstName).to.eql(pm.collectionVariables.get(\"userFirstName\") );\r",
 									"});\r",
 									"\r",
-									"pm.test(\"[3.1] TC04 validate that user lastname in response matches the same in creating request \", function () {\r",
+									"pm.test(\"[3.2] TC04 validate that user lastname in response matches the same in creating request \", function () {\r",
 									"    pm.expect(responseBody.lastName).to.eql(pm.collectionVariables.get(\"userLastName\") );\r",
 									"});\r",
 									"\r",
-									"pm.test(\"[3.1] TC05 validate that user email in response matches the same in creating request \", function () {\r",
+									"pm.test(\"[3.2] TC05 validate that user email in response matches the same in creating request \", function () {\r",
 									"    pm.expect(responseBody.email).to.eql(pm.collectionVariables.get(\"userEmail\") );\r",
 									"});\r",
 									"\r",
 									"\r",
-									"pm.test(\"[3.1] TC06 validate that user firstname is not null, undefined or empty in get user request \", function () {\r",
+									"pm.test(\"[3.2] TC06 validate that user firstname is not null, undefined or empty in get user request \", function () {\r",
 									"    pm.expect(responseBody.firstName).to.not.be.null;\r",
 									"    pm.expect(responseBody.firstName).to.not.be.undefined;\r",
 									"});\r",
 									"\r",
-									"pm.test(\"[3.1] TC06 validate that user lastname is not null, undefined or empty in get user request\", function () {\r",
+									"pm.test(\"[3.2] TC06 validate that user lastname is not null, undefined or empty in get user request\", function () {\r",
 									"    pm.expect(responseBody.lastName).to.not.be.null;\r",
 									"    pm.expect(responseBody.lastName).to.not.be.undefined;\r",
 									"});\r",
 									"\r",
-									"pm.test(\"[3.1] TC07 validate that user createdAt is not null, undefined or empty in get user request\", function () {\r",
+									"pm.test(\"[3.2] TC07 validate that user createdAt is not null, undefined or empty in get user request\", function () {\r",
 									"    pm.expect(responseBody.createdAt).to.not.be.null;\r",
 									"    pm.expect(responseBody.createdAt).to.not.be.undefined;\r",
 									"    pm.expect(responseBody.createdAt).to.not.be.empty;\r",
 									"});\r",
 									"\r",
-									"pm.test(\"[3.1] TC08 validate that user updateAt is not null, undefined or empty in get user request\", function () {\r",
+									"pm.test(\"[3.2] TC08 validate that user updateAt is not null, undefined or empty in get user request\", function () {\r",
 									"    pm.expect(responseBody.updatedAt).to.not.be.null;\r",
 									"    pm.expect(responseBody.updatedAt).to.not.be.undefined;\r",
 									"    pm.expect(responseBody.updatedAt).to.not.be.empty;\r",
 									"});\r",
 									"\r",
-									"pm.test(\"[3.1] TC09 validate that get user response has all required fields\", function () {\r",
+									"pm.test(\"[3.2] TC09 validate that get user response has all required fields\", function () {\r",
 									"    pm.expect(responseBody).to.have.all.keys(\"firstName\", \"lastName\", \"email\", \"createdAt\", \"updatedAt\", \"id\");\r",
 									"});\r",
 									"\r",
-									"pm.test(\"[3.1] TC10 validate that get user response has correct data types\", function () {\r",
+									"pm.test(\"[3.2] TC10 validate that get user response has correct data types\", function () {\r",
 									"    pm.expect(responseBody.firstName).to.be.a(\"string\");\r",
 									"    pm.expect(responseBody.lastName).to.be.a(\"string\");\r",
 									"    pm.expect(responseBody.email).to.be.a(\"string\");\r",
@@ -3532,15 +3930,15 @@
 									"var responseBody = pm.response.json();\r",
 									"var requestBody = JSON.parse(pm.request.body.raw);\r",
 									"\r",
-									"pm.test(\"[3.1] TC01 validate that Status code for updated user request is 200\", function () {\r",
+									"pm.test(\"[3.4] TC01 validate that Status code for updated user request is 200\", function () {\r",
 									"    pm.response.to.have.status(200);\r",
 									"});\r",
 									"\r",
-									"pm.test(\"[3.1] TC02 validate that response time for updated user request less than 1000ms\" , function(){\r",
+									"pm.test(\"[3.4] TC02 validate that response time for updated user request less than 1000ms\" , function(){\r",
 									"        pm.expect(pm.response.responseTime).to.be.below(1000);\r",
 									"});\r",
 									"\r",
-									"pm.test(\"[3.1] TC03 validate create user response scheme as expected\", function () {\r",
+									"pm.test(\"[3.4] TC03 validate create user response scheme as expected\", function () {\r",
 									"var schema = {\r",
 									"  \"type\": \"object\",\r",
 									"  \"properties\": {\r",
@@ -3570,34 +3968,34 @@
 									"\r",
 									"\r",
 									"//validate data to be as expected\r",
-									"pm.test(\"[3.1] TC04 validate that new user firstname in update user response is as expected\", function () {\r",
+									"pm.test(\"[3.4] TC04 validate that new user firstname in update user response is as expected\", function () {\r",
 									"    pm.expect(responseBody.firstName).to.equal(requestBody.firstName);\r",
 									"});\r",
 									"\r",
-									"pm.test(\"[3.1] TC05 validate that new user lastName in updatee user response is as expected\", function () {\r",
+									"pm.test(\"[3.4] TC05 validate that new user lastName in updatee user response is as expected\", function () {\r",
 									"    pm.expect(responseBody.lastName).to.equal(requestBody.lastName);\r",
 									"});\r",
 									"\r",
-									"pm.test(\"[3.1] TC06 validate that new user mail in update user response is as expected\", function () {\r",
+									"pm.test(\"[3.4] TC06 validate that new user mail in update user response is as expected\", function () {\r",
 									"    pm.expect(responseBody.email).to.equal(requestBody.email);\r",
 									"});\r",
 									"\r",
-									"pm.test(\"[3.1] TC07 validate that new username firstname in update user response is not null and undefined\", function () {\r",
+									"pm.test(\"[3.4] TC07 validate that new username firstname in update user response is not null and undefined\", function () {\r",
 									"    pm.expect(responseBody.firstName).to.not.be.null;\r",
 									"    pm.expect(responseBody.firstName).to.not.be.undefined;\r",
 									"});\r",
 									"\r",
-									"pm.test(\"[3.1] TC08 validate that new username lastname in update user response is not null and undefined\", function () {\r",
+									"pm.test(\"[3.4] TC08 validate that new username lastname in update user response is not null and undefined\", function () {\r",
 									"    pm.expect(responseBody.lastName).to.not.be.null;\r",
 									"    pm.expect(responseBody.lastName).to.not.be.undefined;\r",
 									"});\r",
 									"\r",
-									"pm.test(\"[3.1] TC09 validate that new username email in update user response is not null and undefined\", function () {\r",
+									"pm.test(\"[3.4] TC09 validate that new username email in update user response is not null and undefined\", function () {\r",
 									"    pm.expect(responseBody.email).to.not.be.null;\r",
 									"    pm.expect(responseBody.email).to.not.be.undefined;\r",
 									"});\r",
 									"\r",
-									"pm.test(\"[3.1] TC11 validate that updatedAt is in valid date format\", function () {\r",
+									"pm.test(\"[3.4] TC11 validate that updatedAt is in valid date format\", function () {\r",
 									"    pm.expect(responseBody.updatedAt).to.match(/^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}.\\d{3}Z$/);\r",
 									"});\r",
 									"\r",
@@ -3613,6 +4011,13 @@
 								],
 								"type": "text/javascript",
 								"packages": {}
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"packages": {},
+								"type": "text/javascript"
 							}
 						}
 					],
@@ -3755,55 +4160,55 @@
 								"exec": [
 									"var responseBody = pm.response.json();\r",
 									"\r",
-									"pm.test(\"[3.1] TC01 validate that Status code for get user details request is 200\", function () {\r",
+									"pm.test(\"[3.5] TC01 validate that Status code for get user details request is 200\", function () {\r",
 									"    pm.response.to.have.status(200);\r",
 									"});\r",
 									"\r",
-									"pm.test(\"[3.1] TC02 validate that response time for get user details request less than 1000ms\" , function(){\r",
+									"pm.test(\"[3.5] TC02 validate that response time for get user details request less than 1000ms\" , function(){\r",
 									"        pm.expect(pm.response.responseTime).to.be.below(1000);\r",
 									"});\r",
 									"\r",
 									"\r",
-									"pm.test(\"[3.1] TC03 validate that user firstname in response matches the same in creating request \", function () {\r",
+									"pm.test(\"[3.5] TC03 validate that user firstname in response matches the same in creating request \", function () {\r",
 									"    pm.expect(responseBody.firstName).to.eql(pm.collectionVariables.get(\"updatedUserFirstName\") );\r",
 									"});\r",
 									"\r",
-									"pm.test(\"[3.1] TC04 validate that user lastname in response matches the same in creating request \", function () {\r",
+									"pm.test(\"[3.5] TC04 validate that user lastname in response matches the same in creating request \", function () {\r",
 									"    pm.expect(responseBody.lastName).to.eql(pm.collectionVariables.get(\"updatedUserLastName\") );\r",
 									"});\r",
 									"\r",
-									"pm.test(\"[3.1] TC05 validate that user email in response matches the same in creating request \", function () {\r",
+									"pm.test(\"[3.5] TC05 validate that user email in response matches the same in creating request \", function () {\r",
 									"    pm.expect(responseBody.email).to.eql(pm.collectionVariables.get(\"updatedUserEmail\") );\r",
 									"});\r",
 									"\r",
 									"\r",
-									"pm.test(\"[3.1] TC06 validate that user firstname is not null, undefined or empty in get user request \", function () {\r",
+									"pm.test(\"[3.5] TC06 validate that user firstname is not null, undefined or empty in get user request \", function () {\r",
 									"    pm.expect(responseBody.firstName).to.not.be.null;\r",
 									"    pm.expect(responseBody.firstName).to.not.be.undefined;\r",
 									"});\r",
 									"\r",
-									"pm.test(\"[3.1] TC06 validate that user lastname is not null, undefined or empty in get user request\", function () {\r",
+									"pm.test(\"[3.5] TC06 validate that user lastname is not null, undefined or empty in get user request\", function () {\r",
 									"    pm.expect(responseBody.lastName).to.not.be.null;\r",
 									"    pm.expect(responseBody.lastName).to.not.be.undefined;\r",
 									"});\r",
 									"\r",
-									"pm.test(\"[3.1] TC07 validate that user createdAt is not null, undefined or empty in get user request\", function () {\r",
+									"pm.test(\"[3.5] TC07 validate that user createdAt is not null, undefined or empty in get user request\", function () {\r",
 									"    pm.expect(responseBody.createdAt).to.not.be.null;\r",
 									"    pm.expect(responseBody.createdAt).to.not.be.undefined;\r",
 									"    pm.expect(responseBody.createdAt).to.not.be.empty;\r",
 									"});\r",
 									"\r",
-									"pm.test(\"[3.1] TC08 validate that user updateAt is not null, undefined or empty in get user request\", function () {\r",
+									"pm.test(\"[3.5] TC08 validate that user updateAt is not null, undefined or empty in get user request\", function () {\r",
 									"    pm.expect(responseBody.updatedAt).to.not.be.null;\r",
 									"    pm.expect(responseBody.updatedAt).to.not.be.undefined;\r",
 									"    pm.expect(responseBody.updatedAt).to.not.be.empty;\r",
 									"});\r",
 									"\r",
-									"pm.test(\"[3.1] TC09 validate that get user response has all required fields\", function () {\r",
+									"pm.test(\"[3.5] TC09 validate that get user response has all required fields\", function () {\r",
 									"    pm.expect(responseBody).to.have.all.keys(\"firstName\", \"lastName\", \"email\", \"createdAt\", \"updatedAt\", \"id\");\r",
 									"});\r",
 									"\r",
-									"pm.test(\"[3.1] TC10 validate that get user response has correct data types\", function () {\r",
+									"pm.test(\"[3.5] TC10 validate that get user response has correct data types\", function () {\r",
 									"    pm.expect(responseBody.firstName).to.be.a(\"string\");\r",
 									"    pm.expect(responseBody.lastName).to.be.a(\"string\");\r",
 									"    pm.expect(responseBody.email).to.be.a(\"string\");\r",
@@ -3930,6 +4335,167 @@
 							],
 							"cookie": [],
 							"body": "{\n    \"firstName\": \"Percival\",\n    \"lastName\": \"Bayer\",\n    \"email\": \"Rachelle33@gmail.com\",\n    \"createdAt\": \"2025-05-05T19:06:21.229Z\",\n    \"updatedAt\": \"2025-05-05T19:06:28.809Z\",\n    \"id\": 43\n}"
+						}
+					]
+				},
+				{
+					"name": "3.6 partialUpdate",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"[3.6] TC01 validate that Status code for partial update for user request is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "admin",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "admin",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "g-token",
+								"value": "ROM831ESV",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"firstName\": \"{{$randomFirstName}}\",\r\n    \"lastName\": \"{{$randomLastName}}\",\r\n    \"email\": \"{{$randomEmail}}\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/users/{{userIdCreated}}",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"users",
+								"{{userIdCreated}}"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "3.6 partialUpdate",
+							"originalRequest": {
+								"method": "PATCH",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "g-token",
+										"value": "ROM831ESV",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"firstName\": \"{{$randomFirstName}}\",\r\n    \"lastName\": \"{{$randomLastName}}\",\r\n    \"email\": \"{{$randomEmail}}\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseURL}}/users/{{userIdCreated}}",
+									"host": [
+										"{{baseURL}}"
+									],
+									"path": [
+										"users",
+										"{{userIdCreated}}"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin, Accept-Encoding"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache"
+								},
+								{
+									"key": "Pragma",
+									"value": "no-cache"
+								},
+								{
+									"key": "Expires",
+									"value": "-1"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "181"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"b5-BSLluP9n5l5nhQmWsP/lZ4YQEAA\""
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 07 May 2025 15:51:14 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"firstName\": \"Brice\",\n    \"lastName\": \"Wiegand\",\n    \"email\": \"Flo66@hotmail.com\",\n    \"createdAt\": \"2025-05-07T15:51:10.086Z\",\n    \"updatedAt\": \"2025-05-07T15:51:10.086Z\",\n    \"id\": 45\n}"
 						}
 					]
 				},
@@ -5274,13 +5840,219 @@
 					]
 				},
 				{
+					"name": "4.5 partialUpdate",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"function generateRandomWishlistName() {\r",
+									"    const adjectives = [\"Dreamy\", \"Lovely\", \"Awesome\", \"Magical\", \"Cozy\", \"Epic\", \"Golden\", \"Secret\", \"Wanderlust\", \"Sparkling\"];\r",
+									"    const nouns = [\"Wishlist\", \"List\", \"Collection\", \"Vault\", \"Basket\", \"Bundle\", \"Box\", \"Catalog\", \"Crate\", \"Corner\"];\r",
+									"\r",
+									"    const randomAdj = adjectives[Math.floor(Math.random() * adjectives.length)];\r",
+									"    const randomNoun = nouns[Math.floor(Math.random() * nouns.length)];\r",
+									"    const randomNumber = Math.floor(Math.random() * 10000); // 0 to 9999\r",
+									"\r",
+									"    return `${randomAdj}${randomNoun}${randomNumber}`;\r",
+									"}\r",
+									"\r",
+									"var updatedRandomWishListName = generateRandomWishlistName();\r",
+									"//pm.collectionVariables.set(\"updatedRandomWishListName\",updatedRandomWishListName);\r",
+									"\r",
+									"//////////////////////////////////////////////////////////////////////////\r",
+									"\r",
+									"function generateRandomBookTitles(count = 5) {\r",
+									"    const titles = [\r",
+									"        \"The Lost World\", \"Invisible Light\", \"Chasing Dreams\", \"Echoes of Silence\",\r",
+									"        \"Beyond the Horizon\", \"Whispers in the Dark\", \"Time Travelers\",\r",
+									"        \"The Forgotten City\", \"Sky of Ashes\", \"Paths Untaken\"\r",
+									"    ];\r",
+									"\r",
+									"    const books = [];\r",
+									"\r",
+									"    for (let i = 0; i < count; i++) {\r",
+									"        const randomTitle = titles[Math.floor(Math.random() * titles.length)];\r",
+									"        books.push(randomTitle);\r",
+									"    }\r",
+									"\r",
+									"    return books;\r",
+									"}\r",
+									"\r",
+									"\r",
+									"var updatedRandomBooksArray = generateRandomBookTitles();\r",
+									"//pm.collectionVariables.set(\"updatedRandomBooksArray\",updatedRandomBooksArray);\r",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"[4.5] TC01 validate that Status code is 200 for partial update wishlist request\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "admin",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "admin",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "g-token",
+								"value": "ROM831ESV",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"{{updatedRandomWishListName}}\",\r\n    \"books\": \"[{{updatedRandomBooksArray}}]\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/wishlists/{{wishlistID}}",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"wishlists",
+								"{{wishlistID}}"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "2.6 partialUpdate",
+							"originalRequest": {
+								"method": "PATCH",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "g-token",
+										"value": "ROM831ESV",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\": \"{{updatedRandomWishListName}}\",\r\n    \"books\": \"[{{updatedRandomBooksArray}}]\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseURL}}/wishlists/{{wishlistID}}",
+									"host": [
+										"{{baseURL}}"
+									],
+									"path": [
+										"wishlists",
+										"{{wishlistID}}"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin, Accept-Encoding"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache"
+								},
+								{
+									"key": "Pragma",
+									"value": "no-cache"
+								},
+								{
+									"key": "Expires",
+									"value": "-1"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "227"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"e3-U3pFjVUgXKlqZ2ntygFUHq7eahY\""
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 07 May 2025 15:56:02 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"name\": \"AwesomeBox6278\",\n    \"books\": \"[Echoes of Silence,Sky of Ashes,The Forgotten City,Chasing Dreams,Echoes of Silence]\",\n    \"createdAt\": \"2025-05-07T15:55:59.037Z\",\n    \"updatedAt\": \"2025-05-07T15:55:59.037Z\",\n    \"id\": 48\n}"
+						}
+					]
+				},
+				{
 					"name": "4.6 deleteWishlist",
 					"event": [
 						{
 							"listen": "test",
 							"script": {
 								"exec": [
-									"pm.test(\"[3.6] TC01 validate that Status code is 204 for delete user request\", function () {\r",
+									"pm.test(\"[4.6] TC01 validate that Status code is 204 for delete user request\", function () {\r",
 									"    pm.response.to.have.status(204);\r",
 									"});"
 								],
@@ -5396,7 +6168,7 @@
 							"listen": "test",
 							"script": {
 								"exec": [
-									"pm.test(\"3.7] TC01 validate that Status code is 404 for get whishlist details after delete\", function () {\r",
+									"pm.test(\"4.7] TC01 validate that Status code is 404 for get whishlist details after delete\", function () {\r",
 									"    pm.response.to.have.status(404);\r",
 									"});"
 								],

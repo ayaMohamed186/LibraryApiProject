@@ -740,6 +740,15 @@
       "createdAt": "2025-05-05T18:11:25.288Z",
       "updatedAt": "2025-05-05T18:11:25.288Z",
       "id": 67
+    },
+    {
+      "title": "Updated Title",
+      "author": "Updated Author",
+      "isbn": "9786943427876",
+      "releaseDate": "2020-01-27T23:24:39.009Z",
+      "createdAt": "2025-05-07T15:39:53.259Z",
+      "updatedAt": "2025-05-07T15:39:57.171Z",
+      "id": 68
     }
   ],
   "households": [
@@ -1006,6 +1015,12 @@
       "createdAt": "2025-05-05T17:26:17.689Z",
       "updatedAt": "2025-05-05T17:26:17.689Z",
       "id": 27
+    },
+    {
+      "name": "HappyNest9958",
+      "createdAt": "2025-05-07T15:48:14.075Z",
+      "updatedAt": "2025-05-07T15:48:14.075Z",
+      "id": 28
     }
   ],
   "users": [
@@ -1644,6 +1659,14 @@
       "createdAt": "2025-05-05T20:01:52.921Z",
       "updatedAt": "2025-05-05T20:01:59.665Z",
       "id": 44
+    },
+    {
+      "firstName": "Brice",
+      "lastName": "Wiegand",
+      "email": "Flo66@hotmail.com",
+      "createdAt": "2025-05-07T15:51:10.086Z",
+      "updatedAt": "2025-05-07T15:51:10.086Z",
+      "id": 45
     }
   ],
   "accounts": [
@@ -1949,6 +1972,13 @@
       "createdAt": "2025-05-05T19:45:51.241Z",
       "updatedAt": "2025-05-05T19:54:41.536Z",
       "id": 47
+    },
+    {
+      "name": "AwesomeBox6278",
+      "books": "[Echoes of Silence,Sky of Ashes,The Forgotten City,Chasing Dreams,Echoes of Silence]",
+      "createdAt": "2025-05-07T15:55:59.037Z",
+      "updatedAt": "2025-05-07T15:55:59.037Z",
+      "id": 48
     }
   ]
 }
