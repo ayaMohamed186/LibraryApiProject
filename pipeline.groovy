@@ -10,7 +10,7 @@ pipeline {
 
         stage('Run Test') {
             steps {
-                bat 'newman run "LibraryCollection.postman_collection.json" -e "dev.postman_environment.json" --reporter cli,htmlextra'
+                bat 'newman run "LibraryCollection.postman_collection.json" -e "dev.postman_environment.json" --reporters cli,htmlextra'
             }
         }
     }
